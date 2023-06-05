@@ -5,21 +5,17 @@ dt {
 
 dd {
   margin: 0;
-  width: 240px;
 }
 
 .container {
   background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
   border: 1px solid #a3a3a3;
   border-radius: 5px;
-  width: 480px;
+  width: 380px;
   height: 300px;
   padding: 16px;
 }
 
-.box-left {
-  float: left;
-}
-.box-right {
+.box {
   float: right;
 }
