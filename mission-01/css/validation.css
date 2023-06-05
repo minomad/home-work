@@ -1,0 +1,11 @@
+.valid-link {
+  display: block;
+  color: black;
+  text-decoration-line: none;
+  width: 250px;
+  height: 30px;
+  background: #ccc;
+  padding: 8px 8px 8px 16px;
+  border-radius: 34px;
+  margin: 12px 0;
+}
