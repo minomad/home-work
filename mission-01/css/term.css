@@ -10,12 +10,31 @@ dd {
 .container {
   background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
   border: 1px solid #a3a3a3;
-  border-radius: 5px;
-  width: 380px;
+  width: 400px;
   height: 300px;
+  border-radius: 5px;
   padding: 16px;
 }
 
-.box {
+.box-01 dt:nth-child(1) {
   float: right;
+  width: 200px;
+}
+.box-01 dd:nth-child(2) {
+  float: left;
+  width: 200px;
+}
+.box-01 dd:nth-child(3) {
+}
+
+.box-02 dt:nth-child(1) {
+  float: left;
+  width: 200px;
+}
+.box-02 dd:nth-child(2) {
+  float: right;
+  width: 150px;
+}
+.box-02 dd:nth-child(3) {
+  width: 150px;
 }
