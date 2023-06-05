@@ -1,20 +1,25 @@
+dt {
+  color: #296897;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+  width: 240px;
+}
+
 .container {
   background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
   border: 1px solid #a3a3a3;
   border-radius: 5px;
-  width: 250px;
-  height: 269px;
+  width: 480px;
+  height: 300px;
   padding: 16px;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+.box-left {
+  float: left;
 }
-
-.container dt {
-  color: #296897;
-  font-weight: bold;
-  line-height: 150%;
+.box-right {
+  float: right;
 }
