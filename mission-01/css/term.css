@@ -1,0 +1,20 @@
+.container {
+  background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  width: 250px;
+  height: 269px;
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container dt {
+  color: #296897;
+  font-weight: bold;
+  line-height: 150%;
+}
