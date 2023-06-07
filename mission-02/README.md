@@ -32,7 +32,7 @@
 ```html
 <div class="login-id">
   <label for=id>아이디 </label>
-  <input type="email" id="id" name="id" placeholder="euid@euid.de" required >
+  <input type="email" id="id" name="id" placeholder="euid@euid.de" required />
 </div>
 ```
 
