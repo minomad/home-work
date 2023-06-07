@@ -2,15 +2,25 @@
 
 ## 마크업 코드
 
----
 ### 초기 컨테이너 설정
 
 ```html
 <body>
   <div class="login-wrap">
     <div class="login-form">
-     <form><fieldset><legend></legend></fieldset></form>
-     <ul class="find-wrap"><li></li><li></li></ul>
+      <form>
+        <fieldset>
+          <legend></legend>
+          <label></label>
+          <input/>
+          <label></label>
+          <input/>
+        </fieldset>
+      </form>
+      <ul class="find-wrap">
+        <li><a></a></li>
+        <li><a></a></li>
+      </ul>
     </div>
   </div>
 </body>
@@ -36,7 +46,7 @@
 ```
 
 ### 로그인 버튼 구현
-fieldset에 position:relative 속성을  주어서 기준으로 정하고 버튼에 position:absolute 속성을 주어서 위치를 조정했습니다.
+fieldset에 position: relative 속성을  주어서 기준으로 정하고 버튼에 position: absolute 속성을 주어서 위치를 조정했습니다.
 
 ```html
 <button type="submit" class="btn-login">로그인</button>
@@ -57,7 +67,4 @@ fieldset에 position:relative 속성을  주어서 기준으로 정하고 버튼
 ```
 
 ## 완성 UI
-
----
-
 ![과제UI](./과제-02.png)
