@@ -66,5 +66,8 @@ fieldset에 position: relative 속성을  주어서 기준으로 정하고 버�
 </ul>
 ```
 
+### 유효성 검사 완료
+___
+
 ## 완성 UI
 ![과제UI](./과제-02.png)
