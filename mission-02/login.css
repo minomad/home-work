@@ -1,0 +1,86 @@
+.login-wrap {
+  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+  box-shadow: 5px 5px 0px #aaaaaa;
+  border-radius: 5px;
+  width: 244px;
+  height: 161px;
+  padding: 12px;
+  margin: 12px;
+}
+
+.login-text {
+  color: #ffff00;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  width: 39px;
+  height: 23px;
+}
+
+.login-form {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 240px;
+  height: 142px;
+  padding: 0px;
+}
+
+#id {
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 90px;
+  height: 24px;
+  padding: 0px 0px 0px 8px;
+}
+
+#pw {
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 90px;
+  height: 24px;
+  padding: 0px 0px 0px 8px;
+}
+
+.btn-login {
+  background: #ed552f;
+  border: 0;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 53px;
+  padding: 4px;
+  margin: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.login-hr {
+  background: #cccccc;
+  border: 0;
+  width: 209px;
+  height: 1px;
+}
+
+.sign-text {
+  color: #121212;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  text-decoration: none;
+}
+.find-text {
+  color: #121212;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.find-wrap {
+}
