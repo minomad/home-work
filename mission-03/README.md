@@ -35,11 +35,10 @@
   transition: height 0.7s;
 }
 
-/* ul태그에 transform속성을 주어서 list도 Y축으로 이동하도록 하였고
-transition:height가 실행된 이후에 Y축으로 이동시키고자 transition을 설정했습니다.   */
+/* hover했을때 ul태그가 padding-top값 만큼 천천히 밑으로 이동하도록 transition속성을 주었습니다 */
 .link-group:hover{
-  transition: 0.7s ease 0.5s;
-  transform: translateY(10px);
+  padding-top: 10px;
+  transition: padding-top 0.3s ease-in-out 0.4s;
 }
 ````
 

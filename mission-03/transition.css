@@ -23,7 +23,7 @@
   border: 1px solid #A3A3A3;
   border-radius: 5px;
   height: 30px;
-  transition: 0.4s;
+  transition: 0.7s;
 }
 
 .link-wrap:hover{
@@ -38,8 +38,8 @@
 }
 
 .link-group:hover{
-  transition: 0.7s ease 0.5s;
-  transform: translateY(10px);
+  padding-top: 10px;
+  transition: padding-top 0.3s ease-in-out 0.4s;
 }
 
 .link-group li{
