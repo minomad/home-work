@@ -6,7 +6,7 @@
 ```html
 <section class="container">
     <h3 class="link-header">
-      <span class="link-header__text-color"></span> /* 사이트 글자색을 따로 지정하기 위해서 span태그를 사용했습니다. */
+      <span class="link-header__text-color"></span> <!-- 사이트 글자색을 따로 지정하기 위해서 span태그를 사용했습니다 -->
     </h3>
     <div class="link-wrap">
       <ul class="link-group">
