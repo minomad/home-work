@@ -1,14 +1,15 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/variable/pretendardvariable-dynamic-subset.css");
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/variable/pretendardvariable-dynamic-subset.css');
 
-body{
-  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+body {
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+    'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
-p{
+p {
   margin: 0;
 }
 
-.news{
+.news {
   display: grid;
   width: 380px;
   height: 200px;
@@ -19,11 +20,11 @@ p{
   line-height: 150%;
 }
 
-.news-header{
+.news-header {
   grid-row: 1 / 1;
   grid-column: 1 / 5;
-  margin:0;
-  color: #ED552F;
+  margin: 0;
+  color: #ed552f;
   font-size: 14px;
   font-weight: 700;
 }
@@ -38,35 +39,40 @@ p{
   grid-column: 1 / 5;
   height: 1px;
   margin-top: 10px;
-  background: linear-gradient(90deg, #A9A9A9 -1.32%, #FFFFFF 100%);
+  background: linear-gradient(90deg, #a9a9a9 -1.32%, #ffffff 100%);
 }
 
-.news-img{
+.news-img {
   grid-row: 3 / 5;
   grid-column: 1 / 1;
   margin: 0 0 0 -14px;
 }
 
-.news-img figcaption{
-  font-weight: 400;
-  margin-left: 20px;
-  margin-top: -20px
+.news-img img {
+  width: 112px;
+  height: 86px;
 }
 
-.news-list{
+.news-img figcaption {
+  font-weight: 400;
+  margin-left: 21px;
+  margin-top: -16px;
+}
+
+.news-group {
   grid-row: 3 / 3;
   grid-column: 2 / 6;
 }
 
-.news-title{
+.news-title {
   font-weight: 700;
 }
 
-.news-date{
+.news-date {
   padding: 4px 0 8px 0;
 }
 
-.news-content{
+.news-content {
   grid-column: 2 / 6;
   font-weight: 400;
 }
