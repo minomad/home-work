@@ -12,7 +12,7 @@ body {
     'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
-.popular {
+.popular-container{
   background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
   width: 11.875rem;
   height: 7.5rem;
