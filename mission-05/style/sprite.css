@@ -1,0 +1,100 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --accent-color: #ED552F;
+  --border-color: #A3A3A3;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/variable/pretendardvariable-dynamic-subset.css');
+
+body {
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+    'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+.popular {
+  background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+  width: 11.875rem;
+  height: 7.5rem;
+  padding: 12px;
+  position: relative;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.popular-header{
+  font-size: 0.938rem;
+  margin: 2px 0;
+}
+
+.accent-color{
+  color: var(--accent-color);
+}
+
+.popular-wrap {
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+
+.popular-site {
+  list-style: none;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--black);
+  padding-left: 0;
+  margin-bottom: 8px;
+}
+
+.popular-site a{
+  color: var(--black);
+  text-decoration: none;
+}
+
+.popular-site::after{
+  content: "";
+  position: absolute;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  background: var(--border-color);
+  border-radius: 3px;
+  z-index: -1;
+}
+
+.rank-color{
+  padding: 5px;
+  margin-right: 2px;
+  color: var(--white);
+}
+
+/* 스프라이트 설정 */
+.sprite{
+  background: url(./../images/rank.png) no-repeat;
+}
+.sprite-rank-01{
+  background-position: 180px 3px;
+  padding-left: 1px;
+}
+.sprite-rank-02{
+  background-position: 180px -42px;
+}
+.sprite-rank-03{
+  background-position: 180px -19px;
+}
+.sprite-rank-04{
+  background-position: 180px 3px;
+}
+
+
+.popular-more{
+  background: url(./../images/more.png) no-repeat;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: var(--black);
+  padding-left: 20px;
+  position: absolute;
+  top: 15px;
+  right: 12px;
+}

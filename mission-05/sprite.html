@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>과제-05</title>
-  <link rel="stylesheet" href="./sprite.css" />
-</head>
-<body>
-  <section class="popular">
-    <h2>인기 <span class="accent-color">사이트</span></h2>
-    <ul>
-      <ol>W3C</ol>
-      <ol>Web Standards</ol>
-      <ol>CSS ZenGarden</ol>
-      <ol>MDN</ol>
-    </ul>
-    <a href="/" class="popular-more">더보기</a>
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>과제-05</title>
+    <link rel="stylesheet" href="./style/sprite.css" />
+  </head>
+  <body>
+    <section class="popular">
+      <h2 class="popular-header">인기<span class="accent-color"> 사이트</span></h2>
+      <ol class="popular-wrap">
+        <li class="popular-site sprite sprite-rank-01">
+          <span class="rank-color">1</span>
+          <a href="/">W3C</a>
+        </li>
+        <li class="popular-site sprite sprite-rank-02">
+          <span class="rank-color">2</span>
+          <a href="/">Web Standards</a>
+        </li>
+        <li class="popular-site sprite sprite-rank-03">
+          <span class="rank-color">3</span>
+          <a href="/">MDN</a>
+        </li>
+        <li class="popular-site sprite sprite-rank-04">
+          <span class="rank-color">4</span>
+          <a href="/">CSS ZenGarden</a>
+        </li>
+      </ol>
+      <a href="/" class="popular-more">더보기</a>
+    </section>
+  </body>
 </html>
