@@ -11,20 +11,16 @@
   <h2 class="popular-header"><span class="accent-color"></span></h2>
   <ol class="popular-wrap">
     <li class="popular-site sprite sprite-rank-01">
-      <span class="rank-color">1</span>
-      <a href="/"></a>
+      <a href="/" class="popular-siteLink"></a>
     </li>
-    <li class="popular-site sprite sprite-rank-02">
-      <span class="rank-color">2</span>
-      <a href="/"></a>
+    <li class="popular-site sprite sprite-rank-01">
+      <a href="/" class="popular-siteLink"></a>
     </li>
-    <li class="popular-site sprite sprite-rank-03">
-      <span class="rank-color">3</span>
-      <a href="/"></a>
+    <li class="popular-site sprite sprite-rank-01">
+      <a href="/" class="popular-siteLink"></a>
     </li>
-    <li class="popular-site sprite sprite-rank-04">
-      <span class="rank-color">4</span>
-      <a href="/"></a>
+    <li class="popular-site sprite sprite-rank-01">
+      <a href="/" class="popular-siteLink"></a>
     </li>
   </ol>
   <a href="/" class="popular-more"></a>
@@ -42,7 +38,6 @@
 }
 .sprite-rank-01 {
   background-position: 180px 3px;
-  padding-left: 1px; /* W3C의 글자배치를 맞추고자 패딩값을 주었습니다. */
 }
 .sprite-rank-02 {
   background-position: 180px -42px;
@@ -55,37 +50,24 @@
 }
 ```
 
-### list 스타일
+### counter 함수를 이용한 링크 넘버링 
+a 태그에 가상요소 ::before선택자를 설정하고 counter함수를 사용하였습니다. <br/> 그리고 inline-block 속성과 text-align 속성으로 숫자를 가운데 정렬하였습니다.
 
-list 숫자를 회색배경으로 스타일 하기위해서 가상요소 선택자를 사용했습니다. <br/> 가상요소 선택자에 배경컬러를 설정하고 포지션을 사용해서 위치를 잡았습니다. <br/>그리고 z-index를 사용해서 숫자가 보이도록 배치하였습니다.
-
-```html
-<li class="popular-site sprite sprite-rank-01">
-  <span class="rank-color">1</span> 
-  <a href="/">W3C</a>
-</li>
-```
 ```css
-.popular-container {
-  position: relative;
-  z-index: 1;
+.popular-site {
+  counter-increment: number;
 }
 
-.popular-site::after {
-  content: '';
-  position: absolute;
-  left: 12px;
+.popular-siteLink::before {
+  content: counter(number);
   width: 16px;
   height: 16px;
+  display: inline-block;
   background: var(--border-color);
   border-radius: 3px;
-  z-index: -1;
-}
-
-.rank-color{
-  padding: 5px;
-  margin-right: 2px;
   color: var(--white);
+  text-align: center;
+  margin-right: 5px;
 }
 ```
 
